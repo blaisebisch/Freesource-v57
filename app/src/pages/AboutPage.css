@@ -1,0 +1,142 @@
+/* Core Components */
+
+ion-item {
+    background-color: #FFF9EB;
+    color: #FFF9EB;
+    margin: 10px;
+}
+
+ion-list {
+    background-color: #FFF9EB !important;
+    color: #FFF9EB !important;
+}
+
+/* Text */
+.big-heading {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #000;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.medium-heading {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #000;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.body-text {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: #1c1c1d;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.big-caption {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #222428;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.small-caption {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #222428;
+    font-variation-settings:
+      "slnt" 0;
+    font-size: 14px;
+}
+
+/* Layout Elements */
+
+.dashed-frame {
+    background-color: #FFF9EB;
+    border: 3px dashed #000;
+    border-radius: 50px;
+    width: flex;
+    height: 100%;
+    margin-left: -60px;
+    margin-right: 60px;
+    padding: 25px;
+    padding-left: 80px;
+}
+
+/*
+@media (max-width: 768px) {
+    .dashed-frame {
+
+    }
+}
+*/
+
+.partner-card {
+    width: 85%;
+    height: 90%;
+    padding: 15px;
+    border-radius: 25px;
+    min-height: 250px;
+    background-color: #FFF9EB;
+}
+
+.partner-icon {
+    font-size: 120px;
+    color: #414141;
+}
+
+.role-item {
+    border-radius: 50px;
+    background-color: #FFF9EB;
+    color: #FFF9EB;
+}
+
+.service-item {
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.member-card {
+    background-color: #414141;
+    border-radius: 25px;
+    min-height: 100px;
+    min-width: 100px;
+    aspect-ratio: 1 / 1;
+    padding: 10px;
+}
+
+.social-card {
+    width: flex;
+    max-width: 1300px;
+    padding: 40px;
+    min-height: 150px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.transparent-card {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+
+}

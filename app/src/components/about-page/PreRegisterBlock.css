@@ -1,0 +1,22 @@
+.newsletter-card {
+    width: flex;
+    padding: 40px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.email-input {
+    background-color: gray;
+    border-radius: 25px;
+    --color: #FFF9EB;
+    color: #FFF9EB;
+    --padding-start: 25px;
+    font-size: 20px;
+    height: 100%;
+}
+
+.submit-button {
+    --border-radius: 25px;
+    height: 100%;
+}

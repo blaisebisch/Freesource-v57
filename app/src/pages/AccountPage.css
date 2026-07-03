@@ -1,0 +1,33 @@
+.cardStyle {
+  height: 100%
+  }
+
+  .cardStyle:hover {
+    transform: scale(1.1);
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .cardTitle {
+    color: #414141;
+    margin: 24px;
+  }
+
+.authenticator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.authenticator {
+  width: 100%;
+  border-radius: 20px;
+}
